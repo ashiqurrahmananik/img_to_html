@@ -1,0 +1,131 @@
+/*header start*/
+body
+{
+	margin:0;
+	padding:0; 
+}
+header
+{
+	background-color: #121B2A;
+	padding: 10px 0;
+}
+.wrapper
+{
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid white;*/
+	margin:0 auto;
+}
+.logo
+{
+	float: left;
+	width: 20%;
+	/*border: 1px solid white;*/
+}
+.logo img
+{
+	width: 100%;
+}
+.menu
+{
+	float: right;
+	width: 70%;
+	/*border: 1px solid white;*/
+	padding-top: 40px;
+}
+.menu ul 
+{
+	float: right;
+}
+.menu ul li
+{
+	float: left;
+	list-style: none;
+}
+.menu ul li a
+{
+	font-family: sans-serif;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 20px;
+	display: inline-block;
+}
+.menu ul li a:hover
+{
+	color: #0177BD;
+}
+.menu ul li:last-child a
+{
+	padding-right: 0;
+}
+
+/*header end*/
+
+/*banner start*/
+
+.banner
+{
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+}
+.b_content
+{
+	margin-top: 200px;
+	margin-bottom: 70px;
+	width: 60%;
+}
+.b_content h1
+{
+	margin: 0 0;
+	font-family: sans-serif;
+	font-size: 38px;
+	font-weight: 400;
+	color: white;
+
+
+}
+.b_content h2
+{
+	margin: 0 0;
+	font-family: sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	color: #0075B9;
+}
+.b_content p
+{
+	margin: 15px 0 30px;
+	font-family: sans-serif;
+	font-size: 19.5px;
+	font-weight: 400;
+	color: white;
+	line-height: 28px;
+
+}
+.b_content button
+{
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+	color: black;
+	text-transform: uppercase;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+.b_content button:hover
+{
+	background-color:#0272BB;
+	color:white;
+}
+
+
+
+/*banner end*/
+
